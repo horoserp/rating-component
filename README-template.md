@@ -63,6 +63,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+- More about different tab icons
 - Lots about site.webmanifest including icons, screenshots for Richer Install UI, start_url, id
 
 ```html
