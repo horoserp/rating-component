@@ -18,5 +18,6 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "window.location.href"
+  "start_url": "window.location.href",
+  "id": "/assets/images/window.location.href"
 }
