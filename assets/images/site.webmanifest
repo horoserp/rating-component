@@ -17,14 +17,14 @@
   ],
   "screenshots": [
     {
-     "src": "/assets/images/desktop-design.jpg",
+     "src": "rating-component/assets/images/desktop-design.jpg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Desktop Rating Component"
     },
     {
-      "src": "/assets/images/mobile-design.jpg",
+      "src": "rating-component/assets/images/mobile-design.jpg",
        "sizes": "375x667",
        "type": "image/png",
        "form_factor": "narrow",
@@ -35,5 +35,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "window.location.href",
-  "id": "rating-component/assets/images/window.location.href"
+  "id": "/assets/images/window.location.href"
 }
