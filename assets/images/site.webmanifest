@@ -35,5 +35,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "window.location.href",
-  "id": "/assets/images/window.location.href"
+  "id": "rating-component/assets/images/window.location.href"
 }
