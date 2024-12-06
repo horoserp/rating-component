@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Rating Component | REM",
+  "short_name": "Robert's Site",
   "icons": [
     {
       "src": "./assets/images/web-app-manifest-192x192.png",
