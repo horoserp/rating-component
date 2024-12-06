@@ -23,10 +23,23 @@
 
 html {
   font-size: 15px;
+  color: var(--White);
 }
 
 body {
   font-family: "Main";
+  background-color: var(--Very-Dark-Blue);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-image: linear-gradient(var(--Dark-Blue), var(--Very-Dark-Blue));
 }
 
 /* Extra small devices (phones, 600px and down) */
