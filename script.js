@@ -8,9 +8,17 @@ for (let i = 0; i < ratings.length; i++) {
       current[0].className = current[0].className.replace(" active", "");
     }
     ratings[i].className += " active";
+    sessionStorage.setItem("score", ratings[i].value);
   });
 }
 
-submitButton[0].addEventListener("click", () => {
-  window.location = "./thank-you.html";
-});
+// if (submitButton[0]) {
+//   submitButton[0].addEventListener("click", () => {
+//     window.location = "./thank-you.html";
+//     window.addEventListener("load", () => {
+//       console.log(sessionStorage.getItem("score"));
+//     });
+//     const score = document.getElementById("score");
+//     score.innerHTML += sessionStorage.getItem("score");
+//   });
+// }
