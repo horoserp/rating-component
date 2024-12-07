@@ -98,15 +98,9 @@ button {
   button:hover {
     background-color: var(--White);
   }
-
-  .rating:hover {
-    color: black;
-    background-color: var(--Orange);
-  }
 }
 
-button:active,
-.rating:active {
+button:active {
   background-color: var(--White);
 }
 

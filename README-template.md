@@ -65,6 +65,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - More about different tab icons
 - Lots about site.webmanifest including icons, screenshots for Richer Install UI, start_url, id
+- @media (hover:hover)
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
