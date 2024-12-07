@@ -2,10 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank You</title>
+
+    <title>Thank You!</title>
+    <meta name="description" content="Thank you for your rating!" />
+    <meta name="author" content="Robert P. Horosewski" />
+
+    <!-- Tab Icons -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Rating Component | FEM" />
+    <link
+      rel="manifest"
+      href="https://horoserp.github.io/rating-component/assets/images/site.webmanifest"
+    />
+
+    <!-- Open Graph Protocol -->
+
+    <meta property="og:title" content="Thank you for your rating!" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://horoserp.github.io/rating-component"
+    />
+    <!-- TODO: Replace og:image -->
+    <!-- TODO: Replace screenshots in manifest -->
+    <meta property="og:image" content="image.png" />
+
+    <meta property="og:description" content="Thank you for your rating!" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Robert's Sites" />
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="./thank-you.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <h1>Thank you!</h1>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="image-container">
+            <img
+              src="./assets/images/illustration-thank-you.svg"
+              alt="Processed Feeback"
+            />
+          </div>
+          <p>You selected <span class="score"></span> out of 5</p>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more suppport, don't hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
