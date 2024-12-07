@@ -86,6 +86,28 @@ button {
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 2px;
+  border: none;
+}
+
+@media (hover: hover) {
+  button:hover,
+  .rating:hover {
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--White);
+  }
+
+  .rating:hover {
+    color: black;
+    background-color: var(--Orange);
+  }
+}
+
+button:active,
+.rating:active {
+  background-color: var(--White);
 }
 
 /* Extra small devices (phones, 600px and down) */
