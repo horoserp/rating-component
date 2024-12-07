@@ -39,7 +39,53 @@ body {
 }
 
 .card {
+  width: 30vw;
+  padding: 2.5rem;
   background-image: linear-gradient(var(--Dark-Blue), var(--Very-Dark-Blue));
+  border-radius: 25px;
+}
+
+.rating {
+  background-color: var(--Dark-Blue);
+  color: var(--Light-Grey);
+  width: 45px;
+  height: 45px;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating.star {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-weight: normal;
+}
+
+p {
+  color: var(--Light-Grey);
+  padding-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+button {
+  background-color: var(--Orange);
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
 }
 
 /* Extra small devices (phones, 600px and down) */
