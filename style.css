@@ -78,7 +78,7 @@ p {
   padding-bottom: 1.5rem;
 }
 
-button {
+.submit {
   background-color: var(--Orange);
   width: 100%;
   padding: 1rem 0;
@@ -86,22 +86,39 @@ button {
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 2px;
+}
+
+button {
   border: none;
 }
 
+.active {
+  background-color: var(--White);
+  color: black;
+}
+
 @media (hover: hover) {
-  button:hover,
-  .rating:hover {
+  .submit:hover,
+  .number:hover {
     cursor: pointer;
   }
 
-  button:hover {
+  .submit:hover {
     background-color: var(--White);
+  }
+
+  .number:hover {
+    background-color: var(--Orange);
+    color: black;
   }
 }
 
-button:active {
+.submit:active {
   background-color: var(--White);
+}
+
+.clicked {
+  background-color: red;
 }
 
 /* Extra small devices (phones, 600px and down) */
