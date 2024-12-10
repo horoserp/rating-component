@@ -18,14 +18,14 @@
   "screenshots": [
     {
      "src": "https://horoserp.github.io/rating-component/assets/images/rating-component-desktop.jpeg",
-      "sizes": "1440x800",
+      "sizes": "1440x600",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Desktop Rating Component"
     },
     {
       "src": "https://horoserp.github.io/rating-component/assets/images/rating-component-mobile.jpeg",
-       "sizes": "375x667",
+       "sizes": "375x600",
        "type": "image/png",
        "form_factor": "narrow",
        "label": "Mobile Rating Component"
