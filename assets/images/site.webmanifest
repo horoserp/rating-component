@@ -17,8 +17,8 @@
   ],
   "screenshots": [
     {
-     "src": "https://horoserp.github.io/rating-component/assets/images/rating-component-desktop.jpeg",
-      "sizes": "1440x600",
+     "src": "https://horoserp.github.io/rating-component/assets/images/rating-component-desktop-cropped.jpeg",
+      "sizes": "1375x600",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Desktop Rating Component"
